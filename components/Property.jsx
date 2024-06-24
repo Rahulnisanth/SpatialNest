@@ -81,9 +81,6 @@ const Property = ({
                 color={i < randBoostScore / 100 ? "green.500" : "gray.300"}
               />
             ))}
-          <Box as="span" ml="2" color="gray.600" fontSize="sm">
-            {score_l1} reviews
-          </Box>
         </Box>
       </Box>
     </Box>

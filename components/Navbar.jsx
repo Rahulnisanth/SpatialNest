@@ -8,6 +8,7 @@ import {
   Flex,
   Box,
   Spacer,
+  Text,
 } from "@chakra-ui/react";
 import { FcMenu, FcHome, FcAbout } from "react-icons/fc";
 import { BsSearch } from "react-icons/bs";
@@ -16,8 +17,26 @@ import { FiKey } from "react-icons/fi";
 const Navbar = () => (
   <Flex p="2" borderBottom="1px" borderColor="gray.100">
     <Box fontSize="3xl" color="green.400" fontWeight="bold">
-      <Link href="/" paddingLeft="2">
-        Spatial Nest
+      <Link href="/">
+        <Text
+          as={"span"}
+          position={"relative"}
+          paddingLeft="2"
+          paddingRight="2"
+          color="black"
+          _after={{
+            content: "''",
+            width: "full",
+            height: "30%",
+            position: "absolute",
+            bottom: 1,
+            left: 0,
+            bg: "green.400",
+            zIndex: -1,
+          }}
+        >
+          Spatial Nest
+        </Text>
       </Link>
     </Box>
     <Spacer />
