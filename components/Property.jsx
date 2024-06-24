@@ -30,7 +30,14 @@ const Property = ({
       style={{ cursor: "pointer" }}
       _hover={{ transform: "scale(1.02)" }}
     >
-      <Image src={coverPhoto.url} alt="property" roundedTop="lg" />
+      <Image
+        src={coverPhoto.url}
+        alt="property"
+        roundedTop="lg"
+        height="260px" // Adjust the height as needed
+        objectFit="cover"
+        width="100%"
+      />
 
       <Box p="6">
         <Box display="flex" alignItems="baseline">
@@ -59,8 +66,7 @@ const Property = ({
           lineHeight="tight"
           noOfLines={1}
         >
-          AED
-          {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
+          $ {price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
           {rentFrequency && `/${rentFrequency}`}
         </Text>
 

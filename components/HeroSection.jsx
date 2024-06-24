@@ -91,15 +91,6 @@ export default function CallToActionWithVideo() {
           position={"relative"}
           w={"full"}
         >
-          <Blob
-            w={"150%"}
-            h={"150%"}
-            position={"absolute"}
-            top={"-20%"}
-            left={0}
-            zIndex={-1}
-            color={useColorModeValue("green.200", "green.400")}
-          />
           <Box
             position={"relative"}
             height={"300px"}
