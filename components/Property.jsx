@@ -11,7 +11,6 @@ const Property = ({
     isVerified,
     title,
     baths,
-    score_l1,
     price,
     randBoostScore,
     rentFrequency,

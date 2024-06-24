@@ -74,7 +74,7 @@ export const filterData = [
       { name: "10000", value: "10000" },
       { name: "20000", value: "20000" },
     ],
-    placeholder: "Max Area(sqft)",
+    placeholder: "Max Area",
     queryName: "areaMax",
   },
   {

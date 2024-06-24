@@ -7,7 +7,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Head>
-        <title>Real Estate</title>
+        <title>Spatial Nest | Property selling & Rental Platform</title>
       </Head>
       <Box maxWidth="1280px" m="auto">
         <header>
