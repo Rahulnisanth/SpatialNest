@@ -10,16 +10,12 @@ Tags: Axios, ChakraUI, NextJS, RapidAPI
 
 Spatial Nest is a modern web application for browsing property listings, developed using **Next.js**, **ChakraUI** for UI components, and **Axios** for API integration. It provides users with the ability to view properties available for both **rent** and **sale** through categorized listings and filter-based searches. The property data is sourced from the **Bayut API**.
 
----
-
 ## 📚 **Project Overview**
 
 - **Framework:** Next.js
 - **UI Library:** ChakraUI
 - **API Integration:** Axios
 - **API Source:** Bayut API via RapidAPI
-
----
 
 ## 🚀 **Features**
 
@@ -35,8 +31,6 @@ Spatial Nest is a modern web application for browsing property listings, develop
 
    Users can filter properties based on specific criteria such as price range, property type, location, etc.
 
----
-
 ## 📄 **Pages Used**
 
 1. **Home Page**
@@ -48,8 +42,6 @@ Spatial Nest is a modern web application for browsing property listings, develop
 3. **Single Property View Page**
    - Shows the detailed description of each selected property.
    - Includes tags like property type, location, and amenities.
-
----
 
 ## 💻 **Technologies Used**
 
