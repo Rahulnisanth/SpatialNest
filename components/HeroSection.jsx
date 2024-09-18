@@ -7,9 +7,7 @@ import {
   Text,
   Button,
   Image,
-  Icon,
   IconButton,
-  useColorModeValue,
 } from "@chakra-ui/react";
 import { Link } from "react-scroll";
 import { AiOutlineArrowRight } from "react-icons/ai";
@@ -75,9 +73,6 @@ export default function CallToActionWithVideo() {
                 <AiOutlineArrowRight />
               </Button>
             </Link>
-            <Button rounded={"full"} size={"lg"} fontWeight={"normal"} px={6}>
-              How It Works
-            </Button>
           </Stack>
         </Stack>
         <Flex
